@@ -1,5 +1,3 @@
-UserFlexibility = {}
-
 UserFlexibility.FullscreenChanging = function ()
     if love.keyboard.isDown("f11") and love.window.getFullscreen() == true then
         love.window.setFullscreen(false)

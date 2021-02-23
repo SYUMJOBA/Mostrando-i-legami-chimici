@@ -1,6 +1,6 @@
 function love.load()
-    require "drawmolecules"
-    require "UserFlexibility"
+    DrawMolecules = require "drawmolecules"
+    UserFlexibility = require "UserFlexibility"
     love.window.setFullscreen(true)
 end
 
@@ -9,5 +9,5 @@ function love.update()
 end
 
 function love.draw()
-    drawAtom(50, 50, 100)
+    DrawMolecules.drawAtom(50, 50, 100)
 end
